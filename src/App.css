@@ -1,22 +1,92 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 505px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
+}
+
+.logo {
+  margin: 30px 45px;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 100px;
+  width: 405px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+}
+
+.specials_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 60%;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.specials_container button {
+  font-size: 2rem;
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background-color: #237293;
+  border-radius: 100%;
+  border: 0px solid white;
+  box-shadow: -1px 4px 2px #322c2d;
+}
+
+.num-container {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 60%;
+}
+.num-container button {
+  font-size: 2rem;
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background-color: #1a447b;
+  border-radius: 100%;
+  border: 0px solid white;
+  box-shadow: -1px 4px 2px #322c2d;
+}
+
+.num-container button:nth-last-child(2) {
+  width: 190px;
+  border-radius: 50px;
+}
+
+.operators_container {
+  margin-top: -450px;
+  float: right;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.operators_container button {
+  font-size: 2rem;
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background-color: #237293;
+  border-radius: 100%;
+  border: 0px solid white;
+  box-shadow: -1px 4px 2px #322c2d;
+}
